@@ -1,4 +1,10 @@
-from .cvf import CVFConference
+from .cvpr import CVPR
+from .iccv import ICCV
+from .neurips import NeurIPS
 
-__all__ = ['CVFConference',]
+
+__all__ = ['CVPR', 'ICCV', 'NeurIPS']
+
+
+
 
